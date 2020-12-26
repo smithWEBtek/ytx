@@ -1,0 +1,7 @@
+<%= form_for @caption do |f| %>
+  <p>url: <%= f.text :url%></p>
+  <p>timedtext_string: <%= f.text :timedtext_string%></p>
+  <p>cctext: <%= f.textarea :cctext %></p>
+  
+  <% f.submit %>
+<% end %>
